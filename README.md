@@ -16,7 +16,7 @@ package main
 import (
 	"log"
 
-	"github.com/nadoo/ipset"
+	"github.com/crazytypewriter/ipset"
 )
 
 func main() {
