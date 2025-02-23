@@ -1,7 +1,7 @@
 package ipset
 
 import (
-	"ipset/internal/netlink"
+	"github.com/crazytypewriter/ipset/internal/netlink"
 	"net/netip"
 )
 
