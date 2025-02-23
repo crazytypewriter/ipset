@@ -121,7 +121,7 @@ func (nl *NetLink) CreateSet(setName string, opts ...Option) error {
 	req.AddData(NewNfGenMsg(syscall.AF_INET, 0, 0))
 	req.AddData(NewRtAttr(IPSET_ATTR_PROTOCOL, Uint8Attr(IPSET_PROTOCOL)))
 	req.AddData(NewRtAttr(IPSET_ATTR_SETNAME, ZeroTerminated(setName)))
-	req.AddData(NewRtAttr(IPSET_ATTR_TYPENAME, ZeroTerminated("hash:net")))
+	req.AddData(NewRtAttr(IPSET_ATTR_TYPENAME, ZeroTerminated("hash:ip")))
 	req.AddData(NewRtAttr(IPSET_ATTR_REVISION, Uint8Attr(1)))
 	req.AddData(NewRtAttr(IPSET_ATTR_FAMILY, Uint8Attr(family)))
 
