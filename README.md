@@ -15,8 +15,7 @@ package main
 
 import (
 	"log"
-
-	"github.com/crazytypewriter/ipset"
+	"ipset"
 )
 
 func main() {
