@@ -46,7 +46,7 @@ func main() {
 
 ```
 Name: myset
-Type: hash:net
+Type: hash:ip
 Revision: 1
 Header: family inet hashsize 1024 maxelem 65536
 Size in memory: 552
@@ -61,7 +61,7 @@ Members:
 
 ```
 Name: myset6
-Type: hash:net
+Type: hash:ip
 Revision: 1
 Header: family inet6 hashsize 1024 maxelem 65536 timeout 60
 Size in memory: 1432
